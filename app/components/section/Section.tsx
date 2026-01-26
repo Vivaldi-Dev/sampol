@@ -43,8 +43,6 @@ export default function Section() {
           <button className='bg-[#00BFEA] px-24 py-4 rounded-full font-bold text-white text-2xl '>Ver projectos</button>
         </div>
 
-
-
       </div>
 
     </section>

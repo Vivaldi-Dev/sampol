@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import Header from '../header/Header'
+
 
 export default function Banner() {
   return (
@@ -8,10 +8,8 @@ export default function Banner() {
 
       <div className="absolute inset-0 bg-black/10"></div>
 
-      <Header />
-
       <div className="relative z-10 flex items-center justify-center md:min-h-[calc(100vh-96px)] md:px-12">
-        <div className="relative w-full max-w-7xl h-100 md:h-150 bg-[url('/Ellipsebolile2.png')] md:bg-[url('/Ellipse2.png')] bg-contain bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-6 ">
+        <div className="relative w-full max-w-7xl h-100 md:h-150 bg-[url('/Ellipsebolile2.png')] md:bg-[url('/Ellipse2.png')] bg-contain bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-6 mt-20">
 
           <h2 className="text-xl md:text-6xl font-bold tracking-wide">
             SAMPOOL{' '}
