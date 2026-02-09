@@ -1,55 +1,45 @@
 import Image from "next/image";
+import Link from "next/link";
+import TestimonialsSection from "../components/TestimonialsSection/TestimonialsSection";
+import { testimonials } from "../data/projects";
+
+
 
 export default function Page() {
   return (
-    <div className="py-30 pishko specular">
-      <div className="border-b pb-3 mb-8 max-w-7xl mx-auto px-4">
-        <p className="text-xl font-medium">Veja alguns projectos</p>
-      </div>
-
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-3 gap-8 ">
-
-        <div>
-          <div className="relative w-full h-[340px] rounded overflow-hidden">
-            <Image
-              src="/napsce01.jpg"
-              alt="Reabilitação de Piscina"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <p className="mt-4 text-lg font-medium">Reabilitação de Piscina</p>
-          <p className="text-sm text-gray-500">2024</p>
+    <div>
+      <div className="py-20 bg-gray-100">
+        <div className="border-b pb-4 mb-10 max-w-7xl mx-auto px-6">
+          <h1 className="text-2xl font-bold">Veja alguns projectos</h1>
         </div>
 
-        <div>
-          <div className="relative w-full h-[340px] rounded overflow-hidden">
-            <Image
-              src="/napsce01.jpg"
-              alt="Construção de Piscinas"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <p className="mt-4 text-lg font-medium">Construção de Piscinas</p>
-          <p className="text-sm text-gray-500">2015</p>
-        </div>
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {testimonials.map((item, index) => (
+            <Link key={index} href={`/projectos/${index}`}>
+              <div className="cursor-pointer group">
+                <div className="relative w-full h-[380px] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                    src={item.images[0]}
+                    alt={item.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition duration-500"
+                  />
+                </div>
 
-        <div>
-          <div className="relative w-full h-[340px] rounded overflow-hidden">
-            <Image
-              src="/napsce03.jpg"
-              alt="Assistência Técnica Especializada"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <p className="mt-4 text-lg font-medium">
-            Assistência Técnica Especializada
-          </p>
-          <p className="text-sm text-gray-500">2025</p>
+                <p className="mt-4 text-lg font-semibold">
+                  {item.title}
+                </p>
+
+                <p className="text-sm text-gray-500">
+                  {item.Medidas}
+                </p>
+              </div>
+            </Link>
+          ))}
         </div>
       </div>
+
+      <TestimonialsSection />
     </div>
   );
 }

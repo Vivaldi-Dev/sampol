@@ -9,20 +9,29 @@ export default function Banner() {
       <div className="absolute inset-0 bg-black/10"></div>
 
       <div className="relative z-10 flex items-center justify-center md:min-h-[calc(100vh-96px)] md:px-12">
-        <div className="relative w-full max-w-7xl h-100 md:h-150 bg-[url('/Ellipsebolile2.png')] md:bg-[url('/Ellipse2.png')] bg-contain bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-6 mt-20">
+        <div className="relative w-full max-w-7xl h-100 md:h-150 bg-[url('/Ellipsebolile2.png')] md:bg-[url('/Ellipse22.png')] bg-contain bg-center bg-no-repeat flex flex-col items-center justify-center text-center px-6 mt-20">
+          <div className='mt-25'>
+            <h2 className="text-xl md:text-6xl font-bold tracking-wide">
+              SAMPOOL{' '}
+              <span className="text-[#0A8BAE]">CONSTRUÇÕES</span>
+            </h2>
 
-          <h2 className="text-xl md:text-6xl font-bold tracking-wide">
-            SAMPOOL{' '}
-            <span className="text-[#0A8BAE]">CONSTRUÇÕES</span>
-          </h2>
+            <p className="mt-4 text-black max-w-2xl font-medium text-sm md:text-xl">
+              Há mais de <span className='font-bold'>10 anos no mercado moçambicano</span> , a Sampool Construções é especializada na construção, reabilitação e manutenção de piscinas. Trabalhamos com técnicas modernas, materiais de qualidade e uma equipa técnica experiente para entregar obras seguras, duráveis e visualmente impecáveis.
+            </p>
 
-          <p className="mt-4 text-black max-w-2xl font-medium text-sm md:text-xl">
-            Há mais de <span className='font-bold'>10 anos no mercado moçambicano</span> , a Sampool Construções é especializada na construção, reabilitação e manutenção de piscinas. Trabalhamos com técnicas modernas, materiais de qualidade e uma equipa técnica experiente para entregar obras seguras, duráveis e visualmente impecáveis.
-          </p>
+            <div className='flex justify-center gap-5'>
+              <button className=" mt-6 bg-[#060828] text-white px-10 py-4 font-semibold rounded-full shadow hover:opacity-90 transition">
+                Solicitar orçamento
+              </button>
 
-          <button className="mt-6 bg-[#00BFEA] text-white px-10 py-3 font-semibold rounded-full shadow hover:opacity-90 transition">
-            Fale connosco
-          </button>
+              <button className="mt-6  text-black px-10 py-4 font-semibold rounded-full border hover:opacity-90 transition">
+                Falar com um consultor
+              </button>
+            </div>
+
+          </div>
+
         </div>
       </div>
 

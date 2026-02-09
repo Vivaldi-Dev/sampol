@@ -13,14 +13,12 @@ export default function Section() {
           </div>
 
           <div>
-            <p className="font-light text-base sm:text-6xl mb-3">
-              SAMPOOL
+            <p className="font-bold text-base sm:text-6xl mb-3">
+              Nossas soluções atendem
             </p>
 
-            <p className="text-gray-600 leading-relaxed">
-              <span className='font-bold text-black'>Nossas soluções atendem pessoas singulares,</span>
-              condomínios, hotéis, clubes e salões de eventos,
-              oferecendo escolhas personalizadas para cada tipo de cliente com uma <span className='font-bold text-black'>garantia de até 05 anos.</span>
+            <p className="leading-relaxed font-semibold">
+              Nossas soluções atendem pessoas singulares, condomínios, hotéis, clubes e salões de eventos, oferecendo escolhas personalizadas para cada tipo de cliente com uma garantia de até 05 anos.
             </p>
           </div>
 
