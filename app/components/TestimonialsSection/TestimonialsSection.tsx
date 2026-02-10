@@ -30,7 +30,7 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="bg-gray-100 py-20">
+    <section className=" py-10 md:py-20">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-16">
           O que nosso clientes dizem

@@ -3,12 +3,11 @@ import Image from "next/image";
 
 export default function Sectiontree() {
   return (
-    <section className="py-20">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="py-10 md:py-20">
+      <div className="max-w-5xl mx-auto md:px-6">
 
         <div className="grid md:grid-cols- gap-16 items-center">
 
-          {/* TEXTO */}
           <div className="text-center md:text-left space-y-6">
             <h2 className="text-center font-bold text-4xl md:text-6xl">
               Nossa potencial e objectivo
@@ -28,7 +27,7 @@ export default function Sectiontree() {
               width={450}
               height={450}
               alt="Piscina"
-              className="rounded-2xl object-cover shadow-xl"
+              className="md:rounded-2xl object-cover shadow-xl"
             />
           </div>
 

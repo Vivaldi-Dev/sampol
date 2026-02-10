@@ -1,5 +1,17 @@
-export const testimonials = [
+export interface Testimonial {
+  id: number;
+  title: string;
+  Medidas: string;
+  type: string;
+  DETALHES: string;
+  local: string;
+  subscribe?: string; 
+  images: string[];
+}
+
+export const testimonials: Testimonial[] = [
   {
+    id: 1,
     title: "Piscina Média caseira com BebyPool",
     Medidas: "8x4m, altura 90 à 160m",
     type: "L",
@@ -14,6 +26,7 @@ export const testimonials = [
     ],
   },
   {
+    id: 2,
     title: "Piscina Média caseira com BebyPool",
     Medidas: "8x4m, altura 90 à 160m",
     type: "Retangular",
@@ -28,6 +41,7 @@ export const testimonials = [
     ],
   },
   {
+    id: 3,
     title: "Piscina grande caseira tipo retangular",
     Medidas: "12x5m com anexo de BebyPool 3x2m altura 1 à 1.80m",
     type: "T",
@@ -42,6 +56,7 @@ export const testimonials = [
     ],
   },
   {
+    id: 4,
     title: "Piscina caseira com cascata",
     Medidas: "12x5m + 3x2m",
     type: "Caseira com cascata",
@@ -58,6 +73,7 @@ export const testimonials = [
     ],
   },
   {
+    id: 5,
     title: "Piscina grande caseira tipo retangular",
     Medidas: "12x4m com anexo 3m² altura 1 à 1.80m",
     type: "Retangular",

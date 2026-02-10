@@ -4,7 +4,7 @@ import React from 'react'
 export default function Sectionfive() {
     return (
         <div className='relative'>
-            <div className=' py-20 w-full max-w-7xl container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-10 '>
+            <div className='px-5 md:px-0 md:py-20 w-full max-w-7xl container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-10 '>
 
                 <div>
                     <Image
