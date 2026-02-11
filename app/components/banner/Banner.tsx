@@ -10,7 +10,7 @@ export default function Banner() {
   }
 
   const handleConsultorClick = () => {
-    const phoneNumber = '258841234567' // Substitua pelo número correto
+    const phoneNumber = '258841234567' 
     const message = 'Olá! Gostaria de falar com um consultor da Sampool Construções.'
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
@@ -18,12 +18,12 @@ export default function Banner() {
   }
 
   return (
-    <section className="relative w-full h-120 md:min-h-screen bg-[url('/banner.jpg')] bg-cover bg-center bg-no-repeat font-montserrat">
+    <section className="relative w-full h-120 lg:h-200 2xl:min-h-screen bg-[url('/banner.jpg')] bg-cover bg-center bg-no-repeat font-montserrat">
 
       <div className="absolute inset-0 bg-black/10"></div>
 
       <div className="relative z-10 flex items-center justify-center md:min-h-[calc(100vh-96px)] md:px-12">
-        <div className="relative w-full max-w-7xl h-100 md:h-150 bg-[url('/Ellipsebolile2.png')] md:bg-[url('/Ellipse22.png')] md:bg-contain md:bg-center md:bg-no-repeat flex flex-col items-center justify-center text-center md:px-6 mt-20">
+        <div className="relative w-full max-w-7xl h-100 md:h-150 bg-[url('/Ellipsebolile2.png')] md:bg-[url('/Ellipse22.png')] md:bg-contain md:bg-center md:bg-no-repeat flex flex-col items-center justify-center text-center md:px-6 mt-40">
           <div className='mt-15 md:mt-25'>
             <h2 className="text-xl md:text-6xl font-bold tracking-wide">
               SAMPOOL{' '}
