@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 export default function Page() {
@@ -30,7 +31,6 @@ export default function Page() {
           </div>
         </div>
 
-        {/* Email */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Email
@@ -42,7 +42,6 @@ export default function Page() {
           />
         </div>
 
-        {/* Província */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Em que província deseja construir a sua piscina?
@@ -55,7 +54,6 @@ export default function Page() {
           </select>
         </div>
 
-        {/* Acabamento */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Qual acabamento deseja para a sua piscina?
@@ -68,7 +66,6 @@ export default function Page() {
           </select>
         </div>
 
-        {/* Tamanho */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Qual tamanho?
@@ -80,7 +77,6 @@ export default function Page() {
           </select>
         </div>
 
-        {/* Avaliação técnica */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Deseja ter uma avaliação da equipe técnica?
@@ -91,7 +87,6 @@ export default function Page() {
           </select>
         </div>
 
-        {/* Projeto */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Já tem um projecto ou modelo de piscina?
@@ -102,7 +97,6 @@ export default function Page() {
           </select>
         </div>
 
-        {/* Finalidade */}
         <div>
           <label className="block text-sm font-medium mb-2">
             Qual é a finalidade da piscina?
@@ -113,11 +107,9 @@ export default function Page() {
           </select>
         </div>
 
-        {/* Botão */}
         <button
           type="submit"
-          className="w-full mt-8 bg-cyan-500 hover:bg-cyan-600 transition text-white font-semibold py-4 rounded-full"
-        >
+          className="w-full mt-8 bg-cyan-500 hover:bg-cyan-600 transition text-white font-semibold py-4 rounded-full">
           Enviar
         </button>
 

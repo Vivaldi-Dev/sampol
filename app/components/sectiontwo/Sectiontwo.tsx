@@ -6,33 +6,39 @@ import {
   Droplets,
   Settings,
   Waves,
+  Armchair,
 } from "lucide-react";
 
 const services = [
   {
     title: "Construção de Piscinas",
-    image: "/piscina.png",
+    image: "/contrucao.jpg",
     icon: Hammer,
   },
   {
     title: "Reabilitação de Piscinas",
-    image: "/piscina02.jpg",
+    image: "/reabilitacao.png",
     icon: Wrench,
   },
   {
     title: "Manutenção e Tratamento de Água",
-    image: "/manutencao.jpg",
+    image: "/manutencao01.jpg",
     icon: Droplets,
   },
   {
     title: "Assistência Técnica Especializada",
-    image: "/tecnica.jpg",
+    image: "/reparacao01.jpg",
     icon: Settings,
   },
   {
     title: "Reparação e Venda de Equipamentos",
     image: "/reparacao.jpg",
     icon: Waves,
+  },
+  {
+    title: "Projecção de Projectos de Piscinas",
+    image: "/projecao.jpg",
+    icon: Armchair,
   },
 ];
 
@@ -74,7 +80,7 @@ export default function SectionTwo() {
                     src={service.image}
                     alt={service.title}
                     fill
-                    className="object-cover group-hover:scale-110 transition duration-500"/>
+                    className="object-cover group-hover:scale-110 transition duration-500" />
 
                   <div className="absolute inset-0 bg-black/50" />
 

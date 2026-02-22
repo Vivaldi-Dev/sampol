@@ -10,7 +10,7 @@ export default function Banner() {
   }
 
   const handleConsultorClick = () => {
-    const phoneNumber = '258841234567' 
+    const phoneNumber = '258842193766' 
     const message = 'Olá! Gostaria de falar com um consultor da Sampool Construções.'
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 

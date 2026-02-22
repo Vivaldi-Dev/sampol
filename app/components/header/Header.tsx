@@ -13,11 +13,11 @@ export default function Header() {
             <div className="mx-4 mt-4 px-6 md:py-4 flex items-center justify-between rounded-2xl">
 
                 <div className='relative'>
-                    <Image src={'/logo.png'} alt='' width={150} height={150} />
+                    <Image src={'/newlogo.png'} alt='' width={150} height={150} />
                 </div>
 
 
-                <nav className="hidden md:flex gap-8 font-medium text-white text-lg bg-[#060828] p-4 rounded-2xl">
+                <nav className="hidden md:flex  gap-8 font-medium text-white text-lg bg-[#060828] p-4 rounded-2xl">
                     <Link href="/">Início</Link>
                     <Link href="/#quem-somos">
                         Quem Somos
@@ -26,7 +26,7 @@ export default function Header() {
                     <Link href="/servicos">Serviços</Link>
                     <Link href="/projectos">Projetos</Link>
                     <div className=''>
-                        <Link className='bg-[#0A8BAE] p-2 rounded-2xl' href="/formulario"> fale connosco</Link>
+                        <Link className='bg-[#0A8BAE] p-2 rounded-2xl text-[#060828] font-bold' href="/formulario"> fale connosco</Link>
                     </div>
                 </nav>
 

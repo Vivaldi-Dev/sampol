@@ -9,7 +9,7 @@ export default function Contrucao() {
                 <div className=''>
                     <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-10 '>
                         <div className='relative mt-20'>
-                            <Image src={'/Group21.png'} alt='' width={900} height={500} />
+                            <Image src={'/Group112.png'} alt='' width={900} height={500} />
                         </div>
 
                         <div className='max-w-extra max-w-xl px-5 md:px-0'>
@@ -76,7 +76,7 @@ export default function Contrucao() {
 
                         <div className='relative order-1 sm:order-2'>
                             <Image
-                                src={'/Group11.png'}
+                                src={'/Group134.png'}
                                 alt=''
                                 width={900}
                                 height={500}
@@ -90,7 +90,7 @@ export default function Contrucao() {
 
 
                         <div className='relative'>
-                            <Image src={'/Group15.png'} alt='' width={900} height={500} />
+                            <Image src={'/sapce.png'} alt='' width={900} height={500} />
 
                         </div>
 
@@ -99,6 +99,29 @@ export default function Contrucao() {
                             <p> Cuidamos do funcionamento contínuo da sua piscina com manutenção preventiva e corretiva, limpeza, ajuste do sistema de filtração e tratamento químico da água, sempre respeitando as normas de segurança.</p>
                         </div>
                     </div>
+
+                    {/* <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-10'>
+
+                        <div className='px-10 order-2 sm:order-1'>
+                            <p className='font-bold text-4xl'>
+                                Projecção de Projectos de Piscinas
+                            </p>
+                            <p>
+                                Na Sampool Construções, transformamos ideias em projectos de piscinas funcionais, seguras e visualmente impactantes. Desenvolvemos soluções personalizadas, pensadas de acordo com o espaço, as necessidades do cliente e os mais altos padrões técnicos e estéticos. Cada projecto é concebido com rigor,
+                                criatividade e visão estratégica, garantindo resultados duradouros e alinhados com o seu investimento.
+                            </p>
+                        </div>
+
+                        <div className='relative order-1 sm:order-2'>
+                            <Image
+                                src={'/Group49.png'}
+                                alt=''
+                                width={900}
+                                height={500}
+                            />
+                        </div>
+
+                    </div> */}
 
 
                     <TestimonialsSection />

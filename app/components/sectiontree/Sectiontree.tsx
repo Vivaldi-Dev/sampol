@@ -20,7 +20,6 @@ export default function Sectiontree() {
             </p>
           </div>
 
-          {/* IMAGEM */}
           <div className="flex justify-center">
             <Image
               src="/sction03.jpg"

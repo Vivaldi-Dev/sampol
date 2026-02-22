@@ -14,7 +14,7 @@ export default function Textsection() {
         <section className="py-10 md:py-16">
             <div className="max-w-3xl mx-auto px-6 text-center space-y-6">
 
-                <h2 className="text-3xl md:text-5xl font-semibold">
+                <h2 className="text-3xl md:text-5xl font-semibold text-[#0B1A3A]">
                     Tipos e Dimensões de Piscinas
                 </h2>
 
