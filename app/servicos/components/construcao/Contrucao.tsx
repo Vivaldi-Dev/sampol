@@ -1,8 +1,26 @@
+"use client"
+
 import TestimonialsSection from '@/app/components/TestimonialsSection/TestimonialsSection'
 import Image from 'next/image'
-import React from 'react'
+import { useRouter } from "next/navigation"
 
 export default function Contrucao() {
+
+
+    const router = useRouter()
+
+    const handleOrcamentoClick = () => {
+        router.push('/formulario')
+    }
+
+    const handleConsultorClick = () => {
+        const phoneNumber = '258842193766'
+        const message = 'Olá! Vi o site da Sampool Construções e gostaria de falar com um consultor.'
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+        window.open(whatsappUrl, '_blank')
+    }
+
+
     return (
         <div>
             <div className=''>
@@ -138,11 +156,11 @@ export default function Contrucao() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <button className="bg-[#070b2c] text-white px-8 py-4 rounded-full hover:scale-105 transition">
+                            <button  onClick={handleOrcamentoClick} className="bg-[#070b2c] text-white px-8 py-4 rounded-full hover:scale-105 transition">
                                 Solicitar orçamento →
                             </button>
 
-                            <button className="border border-black px-8 py-4 rounded-full hover:bg-gray-100 transition">
+                            <button  onClick={handleConsultorClick} className="border border-black px-8 py-4 rounded-full hover:bg-gray-100 transition">
                                 Falar com um consultor
                             </button>
                         </div>

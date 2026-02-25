@@ -105,15 +105,13 @@ export default function StatsSection() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button 
                         onClick={handleOrcamentoClick}
-                        className="bg-[#070b2c] text-white px-8 py-4 rounded-full hover:scale-105 transition"
-                    >
+                        className="bg-[#070b2c] text-white px-8 py-4 rounded-full hover:scale-105 transition">
                         Solicitar orçamento →
                     </button>
 
                     <button 
                         onClick={handleConsultorClick}
-                        className="border border-black px-8 py-4 rounded-full hover:bg-gray-100 transition"
-                    >
+                        className="border border-black px-8 py-4 rounded-full hover:bg-gray-100 transition">
                         Falar com um consultor
                     </button>
                 </div>

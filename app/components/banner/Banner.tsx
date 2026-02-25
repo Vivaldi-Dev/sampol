@@ -37,23 +37,22 @@ export default function Banner() {
             <div className='hidden md:flex justify-center gap-5'>
               <button
                 onClick={handleOrcamentoClick}
-                className="mt-6 bg-[#060828] text-white px-10 py-4 font-semibold rounded-full shadow hover:opacity-90 transition"
-              >
+                className="mt-6 bg-[#060828] text-white px-10 py-4 font-semibold rounded-full shadow hover:opacity-90 transition">
                 Solicitar orçamento
               </button>
 
-              <button
-                onClick={handleConsultorClick}
-                className="mt-6 text-black px-10 py-4 font-semibold rounded-full border hover:opacity-90 transition"
-              >
+              <button onClick={handleConsultorClick}
+                className="mt-6 text-black px-10 py-4 font-semibold rounded-full border hover:opacity-90 transition">
                 Falar com um consultor
               </button>
             </div>
 
-            <div className='md:hidden flex flex-col items-center px-10 space-y-4'>
-              <button onClick={handleOrcamentoClick} className='bg-[#00BFEA] text-white p-2 w-fit rounded-2xl font-semibold'>
+            <div className='md:hidden mt-2 flex flex-col items-center px-10 space-y-4'>
+              
+              <button onClick={handleOrcamentoClick} className='bg-[#00BFEA] text-white px-6 py-2 w-fit rounded-2xl font-semibold'>
                 Solicitar orçamento
               </button>
+
               <button onClick={handleConsultorClick} className='bg-[#060828] text-white p-2 w-fit rounded-2xl font-semibold'>
                 Falar com um consultor
               </button>
@@ -64,7 +63,7 @@ export default function Banner() {
         </div>
       </div>
 
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10">
+      <div className="hidden md:block absolute bottom-6 left-1/2 -translate-x-1/2 z-10">
         <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow">
           ↓
         </div>
