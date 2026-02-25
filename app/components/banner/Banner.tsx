@@ -30,7 +30,7 @@ export default function Banner() {
               <span className="text-[#0A8BAE]">CONSTRUÇÕES</span>
             </h2>
 
-            <p className="mt-4 text-black max-w-2xl font-medium text-sm md:text-xl">
+            <p className="px-5 sm:px-0 mt-4 text-black max-w-2xl font-medium text-sm md:text-xl">
               Há mais de <span className='font-bold'>10 anos no mercado moçambicano</span> , a Sampool Construções é especializada na construção, reabilitação e manutenção de piscinas. Trabalhamos com técnicas modernas, materiais de qualidade e uma equipa técnica experiente para entregar obras seguras, duráveis e visualmente impecáveis.
             </p>
 

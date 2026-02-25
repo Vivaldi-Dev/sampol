@@ -19,8 +19,8 @@ export async function POST(req: Request) {
         } = body;
 
         await resend.emails.send({
-            from: "Landing Page <onboarding@resend.dev>",
-            to: ["nobelavivaldi@gmail.com"],
+            from: "SAMPOOL <onboarding@resend.dev>",
+            to: ["sampool@gmail.com"],
             subject: "Novo pedido de orçamento – Piscina",
             html: `
   <div style="font-family: Arial, sans-serif; background:#f3f4f6; padding:24px;">

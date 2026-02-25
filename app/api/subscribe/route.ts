@@ -15,7 +15,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "SAMPOOL <onboarding@resend.dev>",
-      to: ["nobelavivaldi@gmail.com"], 
+      to: ["sampool@gmail.com"], 
       subject: "Nova subscrição no site",
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6">
