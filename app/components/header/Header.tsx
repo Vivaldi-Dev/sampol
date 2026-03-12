@@ -12,7 +12,7 @@ export default function Header() {
 
             <div className="mx-4 mt-4 px-6 md:py-4 flex items-center justify-between rounded-2xl">
 
-                <div className='relative'>
+                <div className='relative -ml-8 sm:ml-0'>
                     <Image src={'/newlogo.png'} alt='' width={150} height={150} />
                 </div>
 
